@@ -1,0 +1,132 @@
+body {
+  /* background: #3da3d5; */
+  background: #60A0C4;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: rgb(53, 53, 53);
+}
+
+.title {
+  font-size: 2.5em;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  color: rgb(15 0 80);
+  text-shadow: 5px 2px 20px rgb(51, 50, 50);
+}
+
+h3 {
+  padding-top: 0.25em;
+  font-size: 2.5rem;
+  color:blue;
+  font-family: 'Rubik Pixels', cursive;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+
+
+.location{
+font-family: 'Alkatra', cursive;
+  font-size: 20px;
+}
+
+.date {
+  /* color: rgb(201, 251, 255); */
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 0px!important;
+  padding-top: 0px!important;
+  font-size:40px!important;
+  font-weight: 700!important;
+  /* top:-25px!important */
+  text-shadow: 2px 2px 10px white;
+}
+
+
+.date-smallscreen{
+  padding-top: 0.25em;
+  margin:0px;
+  display:none;
+}
+
+#description {
+  margin: 15px 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+}
+
+.workButton {
+  /* background-color: #06d6a0; */
+  background-color: #a9ee89;
+  color: black;
+}
+
+.workButton:hover {
+  background-color: #0ac593;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  }
+
+  
+}
+
+@media only screen and (max-width:1170px) {
+.date {
+    display: none!important
+  }
+
+  .date-smallscreen {
+    display: block;
+    font-family: 'Source Serif Pro', serif;
+    font-size:20px;
+    padding:10px 0px 
+  }
+  
+}
+
+
+@media only screen and (max-width:850px){
+
+
+
+  .card-body{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.box::-webkit-scrollbar {
+  display: none;
+}
+
+.title-modal{
+  font-size: 2.5em;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: italic;
+    font-weight: 800;
+  color: rgb(15 0 80);    text-shadow: 5px 2px 20px rgb(51, 50, 50);
+    margin-bottom: 30px;
+}
+.lead{
+
+  color: gold;
+  font-style: italic;
+  font-weight: 900;
+
+}
